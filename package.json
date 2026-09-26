@@ -1,0 +1,24 @@
+{
+  "name": "herald-backend",
+  "version": "1.0.0",
+  "description": "Backend API + AI ingest pipeline for the news platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "node-cron": "^3.0.3",
+    "rss-parser": "^3.13.0",
+    "axios": "^1.7.2",
+    "@google/generative-ai": "^0.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
